@@ -5,4 +5,5 @@ Backend API dung Node.js, Express va MySQL. Repo da co cau truc toi thieu de dep
 ## Deploy BE:
 
 ```txt
+ecomn5-backend-production.up.railway.app
 ```
