@@ -2,78 +2,7 @@
 
 Backend API dung Node.js, Express va MySQL. Repo da co cau truc toi thieu de deploy len Railway.
 
-## Chay local
-
-```bash
-npm install
-copy .env.example .env
-npm run dev
-```
-
-API mac dinh chay tai:
+## Deploy BE:
 
 ```txt
-http://localhost:3000
 ```
-
-Health check:
-
-```txt
-GET /api/health
-```
-
-## Bien moi truong
-
-Railway MySQL thuong tu tao cac bien:
-
-```txt
-MYSQLHOST
-MYSQLPORT
-MYSQLUSER
-MYSQLPASSWORD
-MYSQLDATABASE
-```
-
-Backend cung ho tro nhom bien tu dat:
-
-```txt
-DB_HOST
-DB_PORT
-DB_USER
-DB_PASSWORD
-DB_NAME
-FRONTEND_URL
-PORT
-```
-
-`FRONTEND_URL` la domain frontend Vercel, vi du:
-
-```txt
-https://xd-pmweb-nhom5.vercel.app
-```
-
-## Deploy Railway
-
-1. Tao project moi tren Railway.
-2. Chon deploy tu GitHub repo backend.
-3. Them MySQL service trong cung project.
-4. Kiem tra bien moi truong MySQL da duoc inject vao backend service.
-5. Set `FRONTEND_URL` bang URL frontend Vercel.
-6. Deploy service.
-7. Vao service backend va chon `Generate Domain`.
-
-Railway se cap URL dang:
-
-```txt
-https://your-service.up.railway.app
-```
-
-## Import SQL
-
-Sau khi co MySQL env, co the import file SQL trong repo:
-
-```bash
-npm run db:import
-```
-
-Luu y: file `XDPMW_TMDT.sql` hien tai gan nhu chi co metadata export, chua co cau lenh `CREATE TABLE`. Vi vay API deploy duoc, nhung cac endpoint phu thuoc bang nhu `products`, `orders`, `users` se tra loi ro rang cho den khi schema duoc bo sung hoac import dung database dump.
