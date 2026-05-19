@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "backend",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000X\u0000D\u0000P\u0000M\u0000W\u0000-\u0000N\u0000h\u0000o\u0000m\u00005\u0000-\u0000T\u0000h\u0000u\u0000o\u0000n\u0000g\u0000M\u0000a\u0000i\u0000D\u0000i\u0000e\u0000n\u0000T\u0000u\u0000-\u0000B\u0000a\u0000c\u0000k\u0000E\u0000n\u0000d\u0000\r\u0000 \u0000",
@@ -24,5 +25,36 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "moment": "^2.30.1"
+=======
+  "name": "xdpmw-nhom5-thuong-mai-dien-tu-backend",
+  "version": "1.0.0",
+  "description": "Backend API for XDPMW Nhom 5 Thuong Mai Dien Tu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "db:import": "node src/Scripts/importSql.js",
+    "check": "node -e \"require('./src/app')\""
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "railway"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "helmet": "^7.2.0",
+    "mysql2": "^3.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18"
+>>>>>>> 356d7c80f113e4e71ab2e7ea63c6e527af61f6bb
   }
 }
