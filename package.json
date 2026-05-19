@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000X\u0000D\u0000P\u0000M\u0000W\u0000-\u0000N\u0000h\u0000o\u0000m\u00005\u0000-\u0000T\u0000h\u0000u\u0000o\u0000n\u0000g\u0000M\u0000a\u0000i\u0000D\u0000i\u0000e\u0000n\u0000T\u0000u\u0000-\u0000B\u0000a\u0000c\u0000k\u0000E\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longpham0412/XDPMW-Nhom5-ThuongMaiDienTu-BackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/longpham0412/XDPMW-Nhom5-ThuongMaiDienTu-BackEnd/issues"
+  },
+  "homepage": "https://github.com/longpham0412/XDPMW-Nhom5-ThuongMaiDienTu-BackEnd#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "moment": "^2.30.1"
+  }
+}
